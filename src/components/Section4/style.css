@@ -1,0 +1,102 @@
+#section4 {
+  width: 1312px;
+  height: 813px;
+  margin-top: 72px;
+}
+
+#section4Title {
+  width: 100%;
+  height: 264px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Title4 {
+  width: 768px;
+  height: 264px;
+}
+
+#Title4 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fe9515;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+#Title4 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+}
+
+#Title4 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.75);
+  width: 566px;
+  height: 81px;
+}
+
+#buttonTitle {
+  width: 204px;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+#buttonTitle button {
+  width: 104px;
+  height: 48px;
+  border: 1px solid #fe8c00;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fe9515;
+  background: transparent;
+}
+
+#buttonTitle button:hover {
+  background: #fe9515;
+  color: white;
+  transition: 0.2s ease-in;
+  border: 1px solid white;
+}
+
+#CardsSection4 {
+  width: 100%;
+  height: 517px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  #section4 {
+    width: 1000px;
+  }
+
+  #section4Title {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #CardsSection4 {
+    width: 100%;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,115 @@
+#section3 {
+  width: 100%;
+  height: 640px;
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  background: #fff7ec;
+  padding: 28px 0;
+}
+
+#sectionTitle {
+  width: 616px;
+  height: 473px;
+}
+
+#section3 img {
+  width: 616px;
+  height: 640px;
+  border-radius: 6px;
+}
+
+#sectionTitle h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #000000;
+  margin: 16px 0 24px 0;
+}
+
+#sectionTitle h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fe8c00;
+  margin: 0;
+}
+
+#sectionTitle p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0 0 24px 0;
+}
+
+#sectionTitle button {
+  width: 121px;
+  height: 47px;
+  background: #fe8c00;
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+#sectionTitle button:hover {
+  box-shadow: 0px 0px 4px rgba(254, 140, 0, 1);
+}
+
+#TitleNumbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0 0 0;
+}
+
+#TitleNumbers div {
+  width: auto;
+  height: 90px;
+}
+
+#TitleNumbers div h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #fe8c00;
+  margin: 0;
+}
+
+#TitleNumbers div span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  #section3 {
+    width: 100%;
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  #sectionTitle {
+    width: 450px;
+    height: 570px;
+  }
+
+  #section3 img {
+    width: 500px;
+    height: 500px;
+  }
+}
