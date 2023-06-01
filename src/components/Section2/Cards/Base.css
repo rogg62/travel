@@ -118,4 +118,8 @@
   #info {
     width: 100%;
   }
+
+  #Card h1 {
+    font-size: 20px;
+  }
 }

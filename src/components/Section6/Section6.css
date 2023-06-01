@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-
 }
 
 #Box h1 {
@@ -47,15 +46,31 @@
   color: #fe8c00;
 }
 
-#Box button:hover{
+#Box button:hover {
   border: 1px solid white;
   background: transparent;
   color: white;
-  transition: ease-in .2s;
+  transition: ease-in 0.2s;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
-  #Box{
+  #Box {
     width: 1000px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #Box {
+    width: 88.88%;
+  }
+
+  #Box h1 {
+    font-size: 30px;
+    width: 500px;
+    height: auto;
+  }
+
+  #Box p {
+    font-size: 15px;
   }
 }

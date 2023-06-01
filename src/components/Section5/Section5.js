@@ -27,7 +27,6 @@ const Section5 = () => {
           <Cards3 />
         </CarouselItem>
       </Carousel>
-      
     </section>
   );
 };

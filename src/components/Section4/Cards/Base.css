@@ -79,3 +79,21 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .base {
+    display: none;
+  }
+
+  #CardSection4 {
+    width: 330px;
+  }
+
+  #CardSection4 img {
+    width: 100%;
+  }
+
+  #infoCard {
+    width: 100%;
+  }
+}

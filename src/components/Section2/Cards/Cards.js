@@ -14,7 +14,7 @@ const Cards1 = () => {
       day="6"
       night="6"
       price="549"
-      city="Blue lagoon"
+      city="Inggris"
       location="London, Inggris"
     />
   );
@@ -27,7 +27,7 @@ const Cards2 = () => {
       day="2"
       night="2"
       price="349"
-      city="Petra"
+      city="Amã"
       location="Jordânia, Amã"
     />
   );
@@ -40,7 +40,7 @@ const Cards3 = () => {
       day="5"
       night="4"
       price="849"
-      city="Old bagan"
+      city="Mianmar"
       location="Birmânia, Mianmar"
     />
   );
@@ -53,7 +53,7 @@ const Cards4 = () => {
       day="7"
       night="6"
       price="1049"
-      city="Taj-mahal"
+      city="Agra"
       location="Índia, Agra"
     />
   );
@@ -66,7 +66,7 @@ const Cards5 = () => {
       day="4"
       night="5"
       price="755"
-      city="Great Wall"
+      city="Beijing"
       location="China, Beijing"
     />
   );
@@ -92,7 +92,7 @@ const Cards7 = () => {
       day="7"
       night="8"
       price="967"
-      city="Mikumi"
+      city="Tanzânia"
       location="Tanzânia, Morogoro"
     />
   );

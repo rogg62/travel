@@ -59,7 +59,7 @@
     height: 417px;
   }
 
-  #Left p{
+  #Left p {
     width: 100%;
     height: auto;
   }
@@ -71,5 +71,15 @@
   #features {
     width: 1000px;
     background-size: 90% 100%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #Section1 {
+    width: 100%;
+  }
+
+  #features {
+    width: 100%;
   }
 }

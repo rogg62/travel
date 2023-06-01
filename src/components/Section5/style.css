@@ -39,9 +39,19 @@
   margin: 0 0 40px 0;
 }
 
-
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
-  #Testimonial{
+  #Testimonial {
     width: 1000px;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #Testimonial {
+    width: 100%;
+  }
+
+  #Cards3 {
+    display: none;
+  }
+}
+

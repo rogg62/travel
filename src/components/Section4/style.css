@@ -97,6 +97,32 @@
 
   #CardsSection4 {
     width: 100%;
-    gap: 20px;
+    gap: 0;
+    justify-content: space-around;
+
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #section4 {
+    width: 100%;
+  }
+
+  #section4Title {
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  #Title4 {
+    width: 570px;
+  }
+
+  #buttonTitle {
+    width: auto;
+  }
+
+  #CardsSection4 {
+    gap: 0;
+    justify-content: space-around;
   }
 }

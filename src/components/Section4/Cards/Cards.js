@@ -1,8 +1,9 @@
 import React from "react";
 import Base from "./Base";
+import "./Base.css";
 import Card1 from "../../../assets/Cards/card.svg";
 import Card2 from "../../../assets/Cards/card2.svg";
-import Card3 from "../../../assets/Cards/card3.svg"
+import Card3 from "../../../assets/Cards/card3.svg";
 
 const Cards1 = () => {
   return (
@@ -34,7 +35,7 @@ const Cards2 = () => {
 
 const Cards3 = () => {
   return (
-    <div>
+    <div className="base">
       <Base
         local="beach"
         location="Goa, India "

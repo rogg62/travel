@@ -3,12 +3,19 @@
   height: 640px;
   margin-top: 72px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff7ec;
+  padding: 28px 0;
+}
+
+#section3Div {
+  width: 1281px;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 80px;
-  background: #fff7ec;
-  padding: 28px 0;
 }
 
 #sectionTitle {
@@ -111,5 +118,13 @@
   #section3 img {
     width: 500px;
     height: 500px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #section3 {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
   }
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import "./Base.css"
 import Base from "./Base";
 //Imagens
 import Avatar1 from "./assets/Avatar Image.svg";
-import Avatar2 from "./assets/Avatar Image2.svg"
-import Avatar3 from "./assets/Avatar Image3.svg"
+import Avatar2 from "./assets/Avatar Image2.svg";
+import Avatar3 from "./assets/Avatar Image3.svg";
 
 const Cards1 = () => {
   return (
@@ -33,7 +34,7 @@ const Cards2 = () => {
 
 const Cards3 = () => {
   return (
-    <div>
+    <div className="none">
       <Base
         comment='"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers."'
         name="Albert Steveno"

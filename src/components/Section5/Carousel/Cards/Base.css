@@ -58,3 +58,13 @@
     width: 320px;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #CardCarousel {
+    width: 320px;
+  }
+
+  .none {
+    display: none;
+  }
+}
