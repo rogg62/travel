@@ -9,92 +9,106 @@ import Img6 from "../../../assets/Cards/pexels-james-wheeler-1519088.jpg";
 import Img7 from "../../../assets/Cards/pexels-pallab-halder-1049500.jpg";
 const Cards1 = () => {
   return (
-    <Base
-      img={Img1}
-      day="6"
-      night="6"
-      price="549"
-      city="Inggris"
-      location="London, Inggris"
-    />
+    <div>
+      <Base
+        img={Img1}
+        day="6"
+        night="6"
+        price="549"
+        city="Inggris"
+        location="London, Inggris"
+      />
+    </div>
   );
 };
 
 const Cards2 = () => {
   return (
-    <Base
-      img={Img2}
-      day="2"
-      night="2"
-      price="349"
-      city="Amã"
-      location="Jordânia, Amã"
-    />
+    <div>
+      <Base
+        img={Img2}
+        day="2"
+        night="2"
+        price="349"
+        city="Amã"
+        location="Jordânia, Amã"
+      />
+    </div>
   );
 };
 
 const Cards3 = () => {
   return (
-    <Base
-      img={Img3}
-      day="5"
-      night="4"
-      price="849"
-      city="Mianmar"
-      location="Birmânia, Mianmar"
-    />
+    <div className="none">
+      <Base
+        img={Img3}
+        day="5"
+        night="4"
+        price="849"
+        city="Mianmar"
+        location="Birmânia, Mianmar"
+      />
+    </div>
   );
 };
 
 const Cards4 = () => {
   return (
-    <Base
-      img={Img4}
-      day="7"
-      night="6"
-      price="1049"
-      city="Agra"
-      location="Índia, Agra"
-    />
+    <div>
+      <Base
+        img={Img4}
+        day="7"
+        night="6"
+        price="1049"
+        city="Agra"
+        location="Índia, Agra"
+      />
+    </div>
   );
 };
 
 const Cards5 = () => {
   return (
-    <Base
-      img={Img5}
-      day="4"
-      night="5"
-      price="755"
-      city="Beijing"
-      location="China, Beijing"
-    />
+    <div>
+      <Base
+        img={Img5}
+        day="4"
+        night="5"
+        price="755"
+        city="Beijing"
+        location="China, Beijing"
+      />
+    </div>
   );
 };
 
 const Cards6 = () => {
   return (
-    <Base
-      img={Img6}
-      day="7"
-      night="8"
-      price="967"
-      city="Tokyo"
-      location="Japan"
-    />
+    <div className="none">
+      <Base
+        img={Img6}
+        day="7"
+        night="8"
+        price="967"
+        city="Tokyo"
+        location="Japan"
+      />
+    </div>
   );
 };
 
 const Cards7 = () => {
   return (
-    <Base
-      img={Img7}
-      day="7"
-      night="8"
-      price="967"
-      city="Tanzânia"
-      location="Tanzânia, Morogoro"
-    />
+    <div>
+      <Base
+        img={Img7}
+        day="7"
+        night="8"
+        price="967"
+        city="Tanzânia"
+        location="Tanzânia, Morogoro"
+      />
+    </div>
   );
 };
 
