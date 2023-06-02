@@ -124,7 +124,14 @@
 @media screen and (min-width: 700px) and (max-width: 999px) {
   #section3 {
     width: 100%;
-    border: 1px solid black;
+    height: auto;
+  }
+
+  #section3Div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
     overflow: hidden;
   }
 }

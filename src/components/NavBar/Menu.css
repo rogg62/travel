@@ -143,14 +143,23 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
-  #Menu{
+  #Menu {
     width: 100%;
   }
 }
 
-
-@media screen and (min-width: 700px) and (max-width: 999px){
-  #Menu{
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #Menu {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #MenuLinks {
+    display: none;
+  }
+
+  #buttons {
+    display: none;
   }
 }

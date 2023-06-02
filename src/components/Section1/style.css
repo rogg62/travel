@@ -77,9 +77,34 @@
 @media screen and (min-width: 700px) and (max-width: 999px) {
   #Section1 {
     width: 100%;
+    height: auto;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #Left {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Left h1 {
+    text-align: center;
+  }
+
+  #Left p {
+    text-align: center;
+    width: 100%;
+  }
+
+  #Right {
+    margin: 0;
   }
 
   #features {
     width: 100%;
+    background-size: 90% 100%;
   }
 }
