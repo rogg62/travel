@@ -44,3 +44,16 @@ footer #footer {
   text-decoration-line: underline;
   color: #ffffff;
 }
+@media screen and (min-width: 501px) and (max-width: 700px) {
+ 
+  #footer span {
+    align-self: center;
+  }
+
+  #footer div {
+    width: auto;
+    align-self: center;
+    justify-content: center;
+    gap: 25px;
+  }
+}

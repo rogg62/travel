@@ -8,7 +8,7 @@ import Avatar3 from "./assets/Avatar Image3.svg";
 
 const Cards1 = () => {
   return (
-    <div>
+    <div className="none1">
       <Base
         comment='"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers."'
         name="Melisa Susanti"
@@ -34,7 +34,7 @@ const Cards2 = () => {
 
 const Cards3 = () => {
   return (
-    <div className="none">
+    <div className="none none1">
       <Base
         comment='"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers."'
         name="Albert Steveno"

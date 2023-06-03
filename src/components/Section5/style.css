@@ -39,19 +39,20 @@
   margin: 0 0 40px 0;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #Testimonial {
     width: 1000px;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   #Testimonial {
     width: 100%;
   }
-
-  #Cards3 {
-    display: none;
-  }
 }
 
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #Testimonial{
+    width: 100%;
+  }
+}

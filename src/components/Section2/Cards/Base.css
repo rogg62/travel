@@ -104,7 +104,7 @@
   box-shadow: 0px 0px 4px rgba(254, 140, 0, 1);
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #Card {
     width: 320px;
     height: 400px;
@@ -124,7 +124,7 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   #Card {
     width: 300px;
     height: auto;

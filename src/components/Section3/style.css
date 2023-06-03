@@ -103,10 +103,9 @@
   color: #000000;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #section3 {
     width: 100%;
-    justify-content: space-around;
     gap: 0;
   }
 
@@ -119,9 +118,14 @@
     width: 500px;
     height: 500px;
   }
+
+  #section3Div {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   #section3 {
     width: 100%;
     height: auto;
@@ -133,5 +137,58 @@
     justify-content: center;
     gap: 30px;
     overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #section3 {
+    width: 100%;
+    height: auto;
+  }
+
+  #sectionTitle h1 {
+    width: 98%;
+    text-align: center;
+  }
+
+  #sectionTitle p {
+    width: 98%;
+    text-align: center;
+  }
+
+  #section3 img {
+    width: 400px;
+    height: 400px;
+  }
+
+  #section3Div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #TitleNumbers {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #TitleNumbers div{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #TitleNumbers div span {
+    font-size: 15px;
+    }
+
+  #sectionTitle {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

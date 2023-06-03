@@ -65,7 +65,7 @@
   background-color: #fe8c00;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #Button1 {
     bottom: 0;
   }
@@ -76,7 +76,7 @@
 }
 
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   #Button1 {
     bottom: 0;
     left: 250px;
@@ -87,3 +87,6 @@
     right: 250px;
   }
 }
+
+
+

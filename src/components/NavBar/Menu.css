@@ -142,19 +142,17 @@
   box-shadow: 0px 0px 4px rgba(254, 140, 0, 1);
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #Menu {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 501px) and (max-width: 1000px) {
   #Menu {
     width: 100%;
   }
-}
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
   #MenuLinks {
     display: none;
   }

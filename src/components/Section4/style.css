@@ -85,7 +85,7 @@
   gap: 32px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   #section4 {
     width: 1000px;
   }
@@ -99,11 +99,10 @@
     width: 100%;
     gap: 0;
     justify-content: space-around;
-
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
   #section4 {
     width: 100%;
   }
@@ -124,5 +123,52 @@
   #CardsSection4 {
     gap: 20px;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #section4 {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section4Title {
+    width: 98%;
+    height: 390px;
+    flex-direction: column;
+  }
+
+  #Title4 {
+    width: 100%;
+  }
+
+  #Title4 h3 {
+    text-align: center;
+  }
+
+  #Title4 h1 {
+    width: 98%;
+    height: auto;
+    text-align: center;
+  }
+
+  #Title4 p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #buttonTitle {
+   display: none;
+  }
+
+  #CardsSection4 {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
   }
 }
