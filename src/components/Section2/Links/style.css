@@ -21,3 +21,11 @@
     gap: 25px;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .container{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+}
