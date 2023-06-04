@@ -153,28 +153,31 @@
     flex-direction: column;
   }
 
-  #Left{
-    width: 100%;
+  #Left {
+    width: 98%;
+    margin: 0;
   }
 
-  #Left h1{
+  #Left h1 {
     width: 100%;
     text-align: center;
     font-size: 48px;
   }
 
-  #Left p{
+  #Left p {
     width: 100%;
     text-align: center;
   }
 
-  #Right{
-    width: 100%;
+  #Right {
+    width: 98%;
     height: 450px;
+    margin: 0;
   }
 
   #features {
     width: 100%;
     background-size: 98% 100%;
+    margin: 0;
   }
 }
