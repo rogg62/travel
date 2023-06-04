@@ -144,7 +144,7 @@
     font-size: 21px;
   }
 
-  #top{
+  #top {
     margin: 0;
   }
 
@@ -156,7 +156,48 @@
     font-size: 17px;
   }
 
-  #bottom{
+  #bottom {
+    margin: 5px 0 0 0;
+  }
+
+  #bottom span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 500px) {
+  #Card {
+    width: 300px;
+    height: auto;
+  }
+
+  #Card #img {
+    width: 100%;
+    height: 230px;
+  }
+
+  #info {
+    width: 100%;
+    height: 160px;
+  }
+
+  #Card h1 {
+    font-size: 21px;
+  }
+
+  #top {
+    margin: 0;
+  }
+
+  #top #days {
+    font-size: 17px;
+  }
+
+  #top #price {
+    font-size: 17px;
+  }
+
+  #bottom {
     margin: 5px 0 0 0;
   }
 

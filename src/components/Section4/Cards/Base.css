@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (min-width: 701px) and (max-width: 1000px) {
+@media screen and (min-width: 361px) and (max-width: 1000px) {
   .base {
     display: none;
   }
@@ -97,3 +97,4 @@
     width: 100%;
   }
 }
+

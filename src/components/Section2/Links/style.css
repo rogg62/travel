@@ -29,3 +29,11 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 361px) and (max-width: 500px) {
+  .container{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+}
