@@ -13,7 +13,7 @@ const Section1 = () => {
           we always our customers happy by providing as many possible by
           providing as many chises as
         </p>
-
+      
       </div>
       <div id="Right"></div>
     </section>

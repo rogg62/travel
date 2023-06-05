@@ -1,5 +1,6 @@
 import "./App.css";
 import Menu from "./components/NavBar/Menu";
+import MenuResponsivo from "./components/NavBar/MenuResponsivo";
 import Section1 from "./components/Section1/Section1";
 import Features from "./components/Section1/Features";
 import Section2 from "./components/Section2/section2";
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Menu />
+      <MenuResponsivo />
       <Section1 />
       <Features />
       <Section2 />

@@ -12,6 +12,9 @@
   width: 568px;
   height: 417px;
   margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #Left h1 {
@@ -48,6 +51,7 @@
   margin-top: 85px;
   background: url("../../assets/Group\ 8.svg") no-repeat center;
 }
+
 
 @media screen and (min-width: 1001px) and (max-width: 1500px) {
   #Section1 {
