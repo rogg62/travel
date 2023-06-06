@@ -4,10 +4,11 @@
   }
 }
 
-#ContainerMenu{
+#ContainerMenu {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: fixed;
+  z-index: 40;
 }
 
 .MenuResponsive {
@@ -15,24 +16,101 @@
   overflow: hidden;
   background-color: whitesmoke;
   position: relative;
-  z-index: 10;
-
 }
 
 .MenuResponsive #ContainerLinks {
   display: none;
 }
 
-.MenuResponsive .responsive {
-  padding: 14px 16px;
+#ContainerLinks .button {
+  width: 83px;
+  height: 40px;
+  margin: 5px 0 15px 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fe8c00;
+
+  border: 1px solid #fe8c00;
+  border-radius: 6px;
+  background: transparent;
 }
 
-.MenuResponsive a {
+#ContainerLinks .button:hover {
+  background: #fe8c00;
+  color: #ffffff;
+  border: none;
+}
+
+.MenuResponsive .responsive {
+  padding: 14px 16px;
+  background: #fff;
+}
+
+.MenuResponsive .a {
   color: #fe8c00;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+}
+
+.MenuResponsive .dropdown1 {
+  width: 100%;
+  height: 50px;
+  padding-left: 14px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  color: #fe8c00;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: poppins;
+}
+
+.MenuResponsive .dropdown1:active{
+  background: #fe8c00;
+}
+
+.painel {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 50px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.painel a {
+  padding: 5px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #232323;
+  text-transform: capitalize;
+}
+
+.painel a:hover {
+  color: #fe8c00;
+}
+
+.aparecer,
+.dropdown1:hover {
+  background-color: #ccc;
+}
+
+.MenuResponsive .dropdown1:hover {
+  background: #fe8c00;
+  transition: 0.2s ease;
+  color: white;
 }
 
 .MenuResponsive .icon {
@@ -46,7 +124,7 @@
   top: 10px;
 }
 
-#ContainerLinks a:hover {
+#ContainerLinks .a:hover {
   background: #fe8c00;
   transition: 0.2s ease;
   color: white;
