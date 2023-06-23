@@ -1,5 +1,4 @@
 import "./Menu.css";
-import { useState } from "react";
 import Travel from "../../assets/TRAVEL.svg";
 
 const Menu = () => {
