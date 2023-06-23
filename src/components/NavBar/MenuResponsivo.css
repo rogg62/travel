@@ -72,7 +72,7 @@
   font-family: poppins;
 }
 
-.MenuResponsive .dropdown1:active{
+.MenuResponsive .dropdown1:active {
   background: #fe8c00;
 }
 
@@ -120,7 +120,7 @@
   font-size: 25px;
   display: block;
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 10px;
 }
 

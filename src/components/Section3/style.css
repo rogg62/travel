@@ -195,7 +195,7 @@
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #section3 {
-    width: 100%;
+    width: 350px;
     height: auto;
     justify-content: space-around;
   }
@@ -207,11 +207,12 @@
   }
 
   #section3Div h1 {
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 
   #section3Div p {
+    width: 95%;
     text-align: center;
   }
 

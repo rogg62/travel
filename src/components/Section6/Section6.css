@@ -89,21 +89,21 @@
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #Box{
-    width: 98%;
+    width: 350px;
     height: 500px;
     gap: 40px;
   }
 
   #Box h1{
     font-size: 40px;
-    width: 98%;
+    width: 90%;
     height: auto;
     margin: 0;
   }
 
   #Box p{
     margin: 0;
-    width: 98%;
+    width: 95%;
 
   }
 }

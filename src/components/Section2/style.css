@@ -99,12 +99,13 @@
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #section2{
-    width: 100%;
+    width: 350px;
     height: auto;
   }
 
   #section2 h1{
-    width: 100%;
+    width: 85%;
+    height: auto;
     font-size: 28px ;
     text-align: center;
   }

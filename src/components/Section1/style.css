@@ -93,6 +93,7 @@
   #features {
     width: 1000px;
     background-size: 90% 100%;
+    animation: none;
   }
 }
 
@@ -128,6 +129,8 @@
   #features {
     width: 100%;
     background-size: 90% 100%;
+    animation: none;
+
   }
 }
 
@@ -165,12 +168,14 @@
   #features {
     width: 95%;
     background-size: 90% 100%;
+    animation: none;
+
   }
 }
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #Section1 {
-    width: 100%;
+    width: 350px;
     height: auto;
     flex-direction: column;
   }
@@ -192,14 +197,16 @@
   }
 
   #Right {
-    width: 98%;
+    width: 350px;
     height: 450px;
     margin: 0;
   }
 
   #features {
-    width: 100%;
-    background-size: 98% 100%;
+    width: 350px;
+    background-size: 100% 100%;
     margin: 0;
+    animation: none;
+
   }
 }

@@ -10,7 +10,7 @@
 }
 
 #ContainerFooter #footer {
-  width: 88.88%;
+  width: 1280px;
   height: 54px;
   border-top: 1px solid white;
   display: flex;
@@ -55,24 +55,28 @@
     justify-content: center;
     gap: 25px;
   }
+
+  #ContainerFooter #footer {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #ContainerFooter {
-    width: 100%;
+    width: 350px;
     height: 300px;
-    
   }
 
   #ContainerFooter #footer {
-    width: 300px;
+    width: 350px;
     height: 200px;
+    padding: 0;
     flex-direction: column-reverse;
     align-items: center;
   }
 
   #footer div {
-    width: auto;
+    width: 350px;
     height: 150px;
     gap: 20px;
     flex-direction: column;
@@ -80,5 +84,4 @@
     align-items: center;
     margin-top: 30px;
   }
-
 }
