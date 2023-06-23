@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./style.css";
 
 export const CarouselItem = ({ children, width }) => {
@@ -14,12 +14,24 @@ const Carousel = ({ children }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
-      newIndex = 0;
-    } else if (newIndex >= React.Children.count(children)) {
       newIndex = React.Children.count(children) - 1;
+    } else if (newIndex >= React.Children.count(children)) {
+      newIndex = 0;
     }
     setActiveIndex(newIndex);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      updateIndex(activeIndex + 1);
+    }, 8000);
+    return () => {
+      if (interval) {
+        clearInterval(interval);
+      }
+    };
+  });
+
   return (
     <div id="Carousel">
       <div
@@ -44,7 +56,7 @@ const Carousel = ({ children }) => {
           updateIndex(activeIndex + 1);
         }}
       ></button>
-      
+
       <div id="indicadores">
         {React.Children.map(children, (child, index) => {
           return (

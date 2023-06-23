@@ -3,17 +3,6 @@ import { useState } from "react";
 import Travel from "../../assets/TRAVEL.svg";
 
 const Menu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const toggleMenu2 = () => {
-    setIsOpen2(!isOpen2);
-  };
-
 
   return (
     <nav id="Menu">
@@ -29,32 +18,29 @@ const Menu = () => {
 
           {/*Dropdown Services */}
           <div className="dropdown">
-            <button className="dropdown-toggle" onClick={toggleMenu}>
+            <button className="dropdown-toggle" >
               Services
               <span className="material-symbols-outlined">expand_more</span>
             </button>
-            {isOpen && (
+            
               <div className="dropdown-content">
-                <a href="1">Link 1</a>
-                <a href="2">Link 2</a>
-                <a href="1">Link 3</a>
+                <a href="1">Services 1</a>
+                <a href="2">Services 2</a>
+                <a href="1">Services 3</a>
               </div>
-            )}
           </div>
 
           {/*Dropdown Pricing */}
           <div className="dropdown">
-            <button className="dropdown-toggle" onClick={toggleMenu2}>
-              Pricing 
+            <button className="dropdown-toggle">
+              Pricing
               <span className="material-symbols-outlined">expand_more</span>
             </button>
-            {isOpen2 && (
               <div className="dropdown-content">
-                <a href="1">Link 1</a>
-                <a href="1">Link 2</a>
-                <a href="1">Link 3</a>
+                <a href="1">Pricing 1</a>
+                <a href="1">Pricing 2</a>
+                <a href="1">Pricing 3</a>
               </div>
-            )}
           </div>
         </nav>
 

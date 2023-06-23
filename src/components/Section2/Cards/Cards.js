@@ -3,10 +3,7 @@ import Base from "./Base";
 import Img1 from "../../../assets/Cards/Rectangle 3.svg";
 import Img2 from "../../../assets/Cards/Rectangle 4.svg";
 import Img3 from "../../../assets/Cards/Rectangle 5.svg";
-import Img4 from "../../../assets/Cards/india-g29cff8f11_1280.jpg";
-import Img5 from "../../../assets/Cards/pexels-manuel-joseph-19872.jpg";
-import Img6 from "../../../assets/Cards/pexels-james-wheeler-1519088.jpg";
-import Img7 from "../../../assets/Cards/pexels-pallab-halder-1049500.jpg";
+
 const Cards1 = () => {
   return (
     <div>
@@ -31,7 +28,7 @@ const Cards2 = () => {
         night="2"
         price="349"
         city="Amã"
-        location="Jordânia, Amã"
+        location="Country Jordan, Amã"
       />
     </div>
   );
@@ -45,8 +42,8 @@ const Cards3 = () => {
         day="5"
         night="4"
         price="849"
-        city="Mianmar"
-        location="Birmânia, Mianmar"
+        city="Mrauk-U"
+        location="Mianmar, Mrauk-U"
       />
     </div>
   );
@@ -56,12 +53,12 @@ const Cards4 = () => {
   return (
     <div>
       <Base
-        img={Img4}
+        img=""
         day="7"
         night="6"
         price="1049"
         city="Agra"
-        location="Índia, Agra"
+        location="India, Agra"
       />
     </div>
   );
@@ -71,7 +68,7 @@ const Cards5 = () => {
   return (
     <div>
       <Base
-        img={Img5}
+        img=""
         day="4"
         night="5"
         price="755"
@@ -86,12 +83,12 @@ const Cards6 = () => {
   return (
     <div className="none">
       <Base
-        img={Img6}
+        img=""
         day="7"
         night="8"
         price="967"
         city="Tokyo"
-        location="Japan"
+        location="Japan, Tokyo"
       />
     </div>
   );
@@ -101,12 +98,12 @@ const Cards7 = () => {
   return (
     <div>
       <Base
-        img={Img7}
+        img=""
         day="7"
         night="8"
         price="967"
-        city="Tanzânia"
-        location="Tanzânia, Morogoro"
+        city="Tanzania"
+        location="Tanzania, Morogoro"
       />
     </div>
   );

@@ -26,7 +26,7 @@ const Section2 = () => {
               Africa
             </NavLink>
             <NavLink activeclassename="active" className="link" to="/europa">
-              Europa
+              Europe
             </NavLink>
             <NavLink activeclassename="active" className="link" to="/america">
               America

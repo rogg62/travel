@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Cards1, Cards2, Cards3 } from "./Cards/Cards";
 
 const Section4 = () => {
+  const [viewON, setViewOff] = useState(false);
+
+  const toggleViewAll = () => {
+    setViewOff(!viewON);
+
+    if (viewON === false) {
+      document.getElementById("CardsSection4-2").style.display = "flex";
+      document.getElementById("btnSection4").style.display = "none";
+    }
+  };
+
   return (
     <div id="section4">
       <div id="section4Title">
@@ -18,11 +29,19 @@ const Section4 = () => {
           </p>
         </div>
         <div id="buttonTitle">
-          <button>View all</button>
+          <button id="btnSection4" onClick={toggleViewAll}>
+            View all
+          </button>
         </div>
       </div>
 
       <div id="CardsSection4">
+        <Cards1 />
+        <Cards2 />
+        <Cards3 />
+      </div>
+
+      <div id="CardsSection4-2">
         <Cards1 />
         <Cards2 />
         <Cards3 />
