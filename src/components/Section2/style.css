@@ -76,11 +76,19 @@
     width: 100%;
     height: 650px;
   }
+
+  #section2 h1 {
+    text-align: center;
+  }
+
+  #section2 h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 700px) {
   #section2 {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
@@ -95,18 +103,26 @@
     justify-content: center;
     gap: 20px;
   }
+
+  #section2 h3 {
+    text-align: center;
+  }
+
+  #section2 h1 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
-  #section2{
+  #section2 {
     width: 350px;
     height: auto;
   }
 
-  #section2 h1{
+  #section2 h1 {
     width: 85%;
     height: auto;
-    font-size: 28px ;
+    font-size: 28px;
     text-align: center;
   }
 
@@ -116,13 +132,13 @@
     gap: 40px;
   }
 
-  #menu2{
+  #menu2 {
     width: 100%;
     justify-content: space-around;
     gap: 0;
   }
 
-  #menu2 .link{
+  #menu2 .link {
     font-size: 17px;
   }
 }

@@ -66,13 +66,35 @@
   background-color: #fe8c00;
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1500px) {
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+  #Carousel {
+    width: 1300px;
+  }
+
   #Button1 {
-    bottom: 0;
+    bottom: 0px;
+    left: 400px;
   }
 
   #Button2 {
     bottom: 0;
+    right: 400px;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+  #Carousel {
+    width: 1100px;
+  }
+
+  #Button1 {
+    bottom: 0px;
+    left: 400px;
+  }
+
+  #Button2 {
+    bottom: 0;
+    right: 400px;
   }
 }
 
@@ -104,7 +126,7 @@
     bottom: 0;
     left: 7px;
   }
-  
+
   #Button2 {
     border-radius: 10px;
     bottom: 0;

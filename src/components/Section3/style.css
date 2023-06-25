@@ -132,7 +132,7 @@
   }
 
   #section3Div {
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
@@ -146,24 +146,24 @@
     height: auto;
   }
 
-  #sectionTitle h1 {
-    width: 98%;
+  #section3 #sectionTitle h1 {
+    width: 80%;
     text-align: center;
   }
 
   #sectionTitle p {
-    width: 98%;
+    width: 85%;
     text-align: center;
   }
 
   #section3 img {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
 
   #section3Div {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
 
   #TitleNumbers {
@@ -174,7 +174,9 @@
   }
 
   #TitleNumbers div {
-    width: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

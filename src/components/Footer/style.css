@@ -10,7 +10,7 @@
 }
 
 #ContainerFooter #footer {
-  width: 1280px;
+  width: 80%;
   height: 54px;
   border-top: 1px solid white;
   display: flex;
@@ -44,20 +44,32 @@
   text-decoration-line: underline;
   color: #ffffff;
 }
-@media screen and (min-width: 501px) and (max-width: 700px) {
-  #footer span {
-    align-self: center;
-  }
 
-  #footer div {
-    width: auto;
-    align-self: center;
-    justify-content: center;
-    gap: 25px;
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  #ContainerFooter{
+    width: 95%;
   }
 
   #ContainerFooter #footer {
     width: 80%;
+  }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #ContainerFooter {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #ContainerFooter #footer {
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column-reverse;
   }
 }
 
