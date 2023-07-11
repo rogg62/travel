@@ -1,14 +1,12 @@
 import React from "react";
 import "./style.css";
-
-import { Cards4, Cards5, Cards6 } from "../Cards/Cards";
-
+import Base from "../Cards/Base";
 const Asia = () => {
   return (
     <div className="container">
-      <Cards4 />
-      <Cards5 />
-      <Cards6 />
+      <Base />
+      <Base />
+      <Base />
     </div>
   );
 };

@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.css";
-import { Cards7 } from "../Cards/Cards";
+import Base from "../Cards/Base";
 const Africa = () => {
   return (
     <div className="container">
-     <Cards7 />
+     <Base />
+     <Base />
+     <Base />
     </div>
   );
 };
