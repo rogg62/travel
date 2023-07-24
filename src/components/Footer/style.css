@@ -75,7 +75,7 @@
 
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #ContainerFooter {
-    width: 350px;
+    width: 100%;
     height: 300px;
   }
 

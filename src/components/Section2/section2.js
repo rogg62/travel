@@ -19,25 +19,25 @@ const Section2 = () => {
             <NavLink activeclassename="active" className="link" to="/">
               Hot Details
             </NavLink>
+            <NavLink activeclassename="active" className="link" to="/backpack">
+             Back pack
+            </NavLink>
             <NavLink activeclassename="active" className="link" to="/asia">
               Asia
-            </NavLink>
-            <NavLink activeclassename="active" className="link" to="/africa">
-              Africa
             </NavLink>
             <NavLink activeclassename="active" className="link" to="/europa">
               Europe
             </NavLink>
-            <NavLink activeclassename="active" className="link" to="/america">
-              America
+            <NavLink activeclassename="active" className="link" to="/more">
+              More
             </NavLink>
           </nav>
           <Routes>
             <Route exact path="/" element={<Hot />} />
-            <Route path="/asia" element={<Asia />} />
-            <Route path="/africa" element={<Africa />} />
+            <Route path="/backpack" element={<Asia />} />
+            <Route path="/asia" element={<Africa />} />
             <Route path="/europa" element={<Europa />} />
-            <Route path="/america" element={<America />} />
+            <Route path="/more" element={<America />} />
           </Routes>
         </BrowserRouter>
       </div>

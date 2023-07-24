@@ -113,7 +113,7 @@
 @media screen and (min-width: 361px) and (max-width: 500px) {
   #Carousel {
     width: 350px;
-    height: 390px;
+    height: 425px;
   }
 
   #Carousel-Item {
@@ -123,13 +123,13 @@
 
   #Button1 {
     border-radius: 10px;
-    bottom: 0;
+    bottom: 0px;
     left: 7px;
   }
 
   #Button2 {
     border-radius: 10px;
-    bottom: 0;
+    bottom: 0px;
     right: 7px;
   }
 }

@@ -8,7 +8,7 @@ const Menu = () => {
       <img src={Travel} alt="logo" />
       <div id="NavbarMenu">
         <nav id="MenuLinks">
-          <a className="link" href="#Home">
+          <a className="link" href="#Section1">
             Home
           </a>
           <a className="link" href="#About">

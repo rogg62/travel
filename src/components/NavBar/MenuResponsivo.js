@@ -30,7 +30,7 @@ const MenuResponsivo = () => {
           id="ContainerLinks"
           style={{ display: showLinks ? "block" : "none" }}
         >
-          <a className="a" href="#news">
+          <a className="a" href="#Section1">
             Home
           </a>
           <a className="a" href="#contact">
